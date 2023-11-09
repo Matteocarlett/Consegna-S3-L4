@@ -1,0 +1,42 @@
+body{
+font-family:'Poppins', sans-serif;
+font-size: 1.5rem;
+background-color: beige;
+}
+
+main {
+    text-align: center;
+}
+
+#container{
+    border: 1px solid black;
+    margin: 10rem;
+    
+}
+
+.celleTabella {
+    font-size: 1.8rem;
+    width: 4%;
+    height: auto;
+    border: 2px solid rgb(153, 6, 6);
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0.2%;
+}
+
+.celleTabella.cellaEvidenziata {
+    background-color: rgb(227, 227, 132);
+    border: 2px solid red
+}
+
+button{
+    font-size: 1.8rem;
+    padding: 10px;
+    background-color: chocolate;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2rem;
+    
+}
